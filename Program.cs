@@ -14,7 +14,7 @@ namespace its
             Console.WriteLine("Take a survey plz");
             do
             {
-            Console.WriteLine("#" + Number);
+            Console.WriteLine("แบบสอบถามข้อที่ #" + Number);
             Console.WriteLine("Input score that you like A-E");
             string rate = Console.ReadLine();
                 switch (rate)
@@ -23,31 +23,40 @@ namespace its
                 case "a" :
                     score += 5;
                     Number +=1;
+                    Console.Clear();
                     break;
                 case "B":
                 case "b":
                     score += 4;
                     Number +=1;
+                    Console.Clear();
                     break;
                 case "C":
                 case "c":
                     score += 3;
                     Number +=1;
+                    Console.Clear();
                     break;
                 case "D":
                 case "d":
                     score += 2;
                     Number +=1;
+                    Console.Clear();
                     break;
                 case "E":
                 case "e":
                     score += 1;
                     Number +=1;
+                    Console.Clear();
+                    break;
+                default:
+                    Console.WriteLine("ใส่คะแนนผิดกรุณากรอกใหม่ครับ");
                     break;
                 }
             } while (Number != 5);{
                 int result = score * 5;
                 Console.WriteLine("The survey rate is " + result + "%");
+                Console.WriteLine("ขอบคุณที่ทำแบบสอบถามครับ");
             }
         }
         static void GradeIF()
