@@ -6,8 +6,49 @@ namespace its
     {
         static void Main(string[] args)
         {
-         GradeIF();
-         GradeSwitch();   
+            Rate();
+        }
+        static void Rate()
+        {
+            int Number = 1,score = 0;
+            Console.WriteLine("Take a survey plz");
+            do
+            {
+            Console.WriteLine("#" + Number);
+            Console.WriteLine("Input score that you like A-E");
+            string rate = Console.ReadLine();
+                switch (rate)
+                {
+                case "A" :
+                case "a" :
+                    score += 5;
+                    Number +=1;
+                    break;
+                case "B":
+                case "b":
+                    score += 4;
+                    Number +=1;
+                    break;
+                case "C":
+                case "c":
+                    score += 3;
+                    Number +=1;
+                    break;
+                case "D":
+                case "d":
+                    score += 2;
+                    Number +=1;
+                    break;
+                case "E":
+                case "e":
+                    score += 1;
+                    Number +=1;
+                    break;
+                }
+            } while (Number != 5);{
+                int result = score * 5;
+                Console.WriteLine("The survey rate is " + result + "%");
+            }
         }
         static void GradeIF()
         {

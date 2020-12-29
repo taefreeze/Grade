@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VSC\\its\\its.csproj": {}
+    "E:\\VSC\\ITS\\its.csproj": {}
   },
   "projects": {
-    "E:\\VSC\\its\\its.csproj": {
+    "E:\\VSC\\ITS\\its.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VSC\\its\\its.csproj",
+        "projectUniqueName": "E:\\VSC\\ITS\\its.csproj",
         "projectName": "its",
-        "projectPath": "E:\\VSC\\its\\its.csproj",
+        "projectPath": "E:\\VSC\\ITS\\its.csproj",
         "packagesPath": "C:\\Users\\potae\\.nuget\\packages\\",
-        "outputPath": "E:\\VSC\\its\\obj\\",
+        "outputPath": "E:\\VSC\\ITS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\potae\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CRD9d1b7zMfP629f4TVl5xGrVE+6cll7D47Xc2Ty2PPJdT0KkrB+3yLn26VkeIq7csp225B7JodOFbSCprkjHw==",
+  "dgSpecHash": "jtfOD3hmeByr+bJuIGPvTtd1HVN90bQlUY8Wg04rLhp2FgnMhp9ODMvozPqZpRGJ6vtgb3XkTAE/tYIiSgmC4g==",
   "success": true,
-  "projectFilePath": "E:\\VSC\\its\\its.csproj",
+  "projectFilePath": "E:\\VSC\\ITS\\its.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
